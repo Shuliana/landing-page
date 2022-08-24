@@ -1,9 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Slabo+27px&display=swap');
 *{
     box-sizing: border-box;
     margin: 0px;
     padding: 0px;
 }
 body{
+    /* font-family: 'Slabo 27px', serif; */
     font-family:'poppins';
     background-color:aliceblue;
 }
@@ -25,15 +27,14 @@ body{
 }
 header{
     background-color: white;
-    border: 1.5px solid rgb(220, 220, 220);
     border-radius: 5px;
     -webkit-border-radius: 5px;
     -moz-border-radius: 5px;
     -ms-border-radius: 5px;
     -o-border-radius: 5px;
-    width: 90%;
+    width: 1360px;
     height: 80px;
-    padding: 60px;
+    padding: 20px;
     margin: 5% auto 0% auto;
     /*box-shadow: 13px 19px 19px -6px rgba(0,0,0,0.38);
     -webkit-box-shadow: 13px 19px 19px -6px rgba(0,0,0,0.38);
@@ -54,21 +55,79 @@ a{
     font-weight: bold;
     padding: 20px;
 }
-
+h1{
+    margin: 0;
+    padding: 0;
+}
 a#logo{
     display: block;
-    width: 60px;
-    height: 57px;
-    background-image: url(386.png);
+    width: 90px;
+    background-image: url(./img/Travel-Logo-Graphics-1-36.jpg);
     background-repeat: no-repeat;
-    background-size: 60px;
-    text-indent: 60px;
+    background-size: 90px;
+    text-indent: 90px;
     overflow: hidden;
 }
-section{
+ header div{
+    width: 1300px;
+    /* margin-top: 2%; */
+    
+} 
+header div img{
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+}
+main{
+    margin: 0;
+    width: 1360px;
+    margin-left: auto!important;
+    margin-right: auto!important; 
+}
+.titulo{
+    /* gap: 20px; */
+    /* align-items: center; */
+    width: 45%;
+    padding: 2%;
+}
+h1{
+    font-family: 'Slabo 27px', serif;
+    font-size: 45px;
+    
+}
+/* section{
     background-color: white;
     border: 1.5px solid rgb(220, 220, 220);
     width: 90%;
     height: 100px;
     margin: 0px auto auto auto;
+} */
+div.buttons{
+    margin-top: 5%;
+    gap: 30px;
+}
+div button{
+    width: 150px;
+    height: 40px;
+    color: aliceblue;
+
+    background-color: black;
+    border-radius: 25px;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    -ms-border-radius: 25px;
+    -o-border-radius: 25px;
+    
+}
+section{
+    margin-top: 40%;
+    gap: 40px;
+}
+section h2{
+    font-size: 40px;
+}
+section h2 p{
+    font-size: 30px;
 }
