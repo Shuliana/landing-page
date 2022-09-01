@@ -9,16 +9,31 @@
 </head>
 <body>
     <main>
-    <header> 
-        <nav class="">
+        <header> 
+        <div class="front-page">
+            <div class="container-img">
+            <img src="./img/collage-travel.jpg" alt="3 imagenes de paisajes y comida" width="1347">
+            
+                <div class="description">
+                    <h1>Buscá en cientos de <span class="remarcar-text">webs</span> de vuelos a la vez.</h1>
+                    <p>Buscá vuelos, hoteles, alquiler de autos, guías de viaje y más con KAYAK.<br> KAYAK busca en cientos de webs de viajes y encuentra la información que necesitás para que puedas tomar las mejores decisiones al planear tu viaje.</p>
+                <div class="buttons">
+                    <button>SUSCRIBIRME</button>
+                    <button>LEARN MORE</button>
+                </div>
+            </div>
+            </div>
+        </div>
+        <nav class="row">
+            <a href="#" class="logo">Logo</a>
             <ul class="menu">
-                <li><a href="#" class="logo">Logo</a></li>
+                <div class="row list">
                 <li><a href="#">Business</a></li>
                 <li><a href="#">Trips</a><a href="#">Me gusta</a></li>
                 <li><a href="#">Iniciar Secion</a></li>
                 <li><a href="">Pais-moneda</a></li>
-            </ul>
-            <ul class="menu-2">
+            </ul></div>
+            <!-- <ul class="menu-2">
                 <li><a href="#">Iniciar sesión</a></li>
                 <li><a href="#">Vuelos</a></li>
                 <li><a href="#">Alojamientos</a></li>
@@ -31,21 +46,12 @@
                 <li><a href="#">Vuelos directos</a></li>
                 <li><a href="#">Restricciones de viaje</a></li>
                 <li><a href="#">Trips</a></li>
-            </ul>
+            </ul> -->
         </nav>
-        <div class="front-page">
-            <img src="./img/collage-travel.jpg" alt="3 imagenes de paisajes y comida" width="1347">
-                <h1>Descubra momentos de viaje dignos de una historia</h1>
-                <p>Buscá vuelos, hoteles, alquiler de autos, guías de viaje y más con KAYAK.<br> KAYAK busca en cientos de webs de viajes y encuentra la información que necesitás para que puedas tomar las mejores decisiones al planear tu viaje.</p>
-                <div class="buttons">
-                    <button>SUSCRIBIRME</button>
-                    <button>LEARN MORE</button>
-                </div>
-        </div>
     
     </header>
 
-        <section class="">
+        <section class="about-us">
             <h2>Quienes somos?</h2>
             <p>Desde 2004, KAYAK viene revolucionando el sector de los viajes.<br>¿Un metabuscador de viajes? Nadie lo había hecho, hasta que llegamos nosotros.</p>
             <p>Hoy procesamos miles de millones de búsquedas anuales a través de nuestras plataformas para obtener información de viajes y así ayudamos a millones de viajeros alrededor del mundo a tomar la mejor decisión.<br> Para cada consulta, KAYAK busca en cientos de webs de viajes a la vez y muestra a los viajeros la información que necesitan para elegir el vuelo, hotel, auto de alquiler o paquete de viaje perfecto.</p>
@@ -78,9 +84,9 @@
     </main>
     <section class="destinations">
         <h2>Destinos a los que podés ir ahora</h2>
-        <p>Destinos populares abiertos a la mayoría de viajeros de Argentina</p>
-        <button></button>
-        <figure class="row space-between">
+        <div class="row space-between"><p>Destinos populares abiertos a la mayoría de viajeros de Argentina</p>
+        <button class="button">Ver todos</button></div>
+        <figure class="images-country row space-between">
             <div class="country">
                 <a href="#"><img src="./img/pexels-alesia-kozik-6022637 (2).jpg" alt="Imagen de Alemania" width="243" height="270"></a>
                 <figcaption>
@@ -124,43 +130,45 @@
         </figure>
     </section>
     <footer>
-        <div class="row space-between">
-                <div class="column">
-                    <h4>Nuestra empresa</h4>
-                    <a href="#">Empleo</a>
-                    <a href="#">Móvil</a>
-                    <a href="#">Blog</a>
-                    <a href="#">Cómo funcionan nuestros servicios</a>
+        <div class="footer">
+            <div class="row space-between">
+                    <div class="column">
+                        <h4>Nuestra empresa</h4>
+                        <a href="#">Empleo</a>
+                        <a href="#">Móvil</a>
+                        <a href="#">Blog</a>
+                        <a href="#">Cómo funcionan nuestros servicios</a>
+                    </div>
+                    <div class="column">
+                        <h4>Contactar</h4>
+                        <a href="#">Ayuda/Preguntas frecuentes</a>
+                        <a href="#">Prensa</a>
+                        <a href="#">Compañías afiliadas</a>
+                        <a href="#">Propietarios de hoteles</a>
+                    </div>
+                    
+                    <div class="column">
+                        <h4>Más</h4>
+                        <a href="#">Tasas de aerolíneas</a>
+                        <a href="#">Aerolíneas</a>
+                        <a href="#">Tips de tarifas bajas</a>
+                        <a href="#">Medallas y certificados</a>
+                    </div>
+                    <div class="column">
+                        <h4>Región / Divisa</h4>
+                        <span>Argentina</span>
+                        <span>Pesos Argentinos</span>
+                    </div>
                 </div>
-                <div class="column">
-                    <h4>Contactar</h4>
-                    <a href="#">Ayuda/Preguntas frecuentes</a>
-                    <a href="#">Prensa</a>
-                    <a href="#">Compañías afiliadas</a>
-                    <a href="#">Propietarios de hoteles</a>
-                </div>
-                
-                <div class="column">
-                    <h4>Más</h4>
-                    <a href="#">Tasas de aerolíneas</a>
-                    <a href="#">Aerolíneas</a>
-                    <a href="#">Tips de tarifas bajas</a>
-                    <a href="#">Medallas y certificados</a>
-                </div>
-                <div class="column">
-                    <h4>Región / Divisa</h4>
-                    <span>Argentina</span>
-                    <span>Pesos Argentinos</span>
-                </div>
+            <div class="row justify-center">
+                <a href="#">Privacidad</a>
+                <a href="#">Términos y condiciones</a>
+                <span>©KAYAK2022</span>
             </div>
-        <div class="row justify-center">
-            <a href="#">Privacidad</a>
-            <a href="#">Términos y condiciones</a>
-            <span>©KAYAK2022</span>
-        </div>
-        <div class="social-media row justify-center">
-            <a href="#"></a>
-            <a href="#"></a>
+            <div class="social-media row justify-center">
+                <a href="#"></a>
+                <a href="#"></a>
+            </div>
         </div>
     </footer>
 
