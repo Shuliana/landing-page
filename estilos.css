@@ -1,133 +1,91 @@
-@import url('https://fonts.googleapis.com/css2?family=Slabo+27px&display=swap');
+
+@import url("https://use.typekit.net/fcs5vqd.css");
+
 *{
     box-sizing: border-box;
     margin: 0px;
     padding: 0px;
 }
 body{
-    /* font-family: 'Slabo 27px', serif; */
-    font-family:'poppins';
-    background-color:aliceblue;
+    font-family: poppins, sans-serif;
+    font-weight: 400;
+    font-style: normal;
 }
-.fila{
-    display: flex;
+@font-face {
+    font-family: 'TT Hoves';
+    src: url('./font/TT Hoves Bold.otf');
+  }
+  h1{
+    font-family: 'TT Hoves';
+    font-size: 60px;
+    margin: 4% 0%;
+
+  }
+h2, h3, h4, button{
+    font-family: 'TT Hoves';
+    margin: 3% 0%;
+
 }
-.espacio{
-    justify-content: space-around;
+h2{
+    font-size: 35px;
 }
-.espacio-completo{
-    justify-content: space-between;
+h3{
+    font-size: 20px;
 }
-.centrar{
-    align-items: center;
+h4{
+    font-size: 15px;
 }
-.columna{
-    display: flex;
-    flex-direction: column;
+p{
+    font-size: 16px;
+    letter-spacing: 0.8px; 
+    word-spacing: 2px;
+    line-height: 22px;
 }
-header{
-    background-color: white;
-    border-radius: 5px;
-    -webkit-border-radius: 5px;
-    -moz-border-radius: 5px;
-    -ms-border-radius: 5px;
-    -o-border-radius: 5px;
-    width: 1360px;
-    height: 80px;
-    padding: 20px;
-    margin: 5% auto 0% auto;
-    /*box-shadow: 13px 19px 19px -6px rgba(0,0,0,0.38);
-    -webkit-box-shadow: 13px 19px 19px -6px rgba(0,0,0,0.38);
-    -moz-box-shadow: 13px 19px 19px -6px rgba(0,0,0,0.38);
-    */;
+:root{
     
 }
-ul{
-    width: 45%;
-}
-li{
-    list-style-type: none;
-}
+
+
 a{
     text-decoration: none;
-    color: rgb(101, 100, 100);
-    font-size: 18px;
-    font-weight: bold;
-    padding: 20px;
 }
-h1{
-    margin: 0;
-    padding: 0;
-}
-a#logo{
-    display: block;
-    width: 90px;
-    background-image: url(./img/Travel-Logo-Graphics-1-36.jpg);
-    background-repeat: no-repeat;
-    background-size: 90px;
-    text-indent: 90px;
-    overflow: hidden;
-}
- header div{
-    width: 1300px;
-    /* margin-top: 2%; */
-    
-} 
-header div img{
-    border-radius: 4px;
-    -webkit-border-radius: 4px;
-    -moz-border-radius: 4px;
-    -ms-border-radius: 4px;
-    -o-border-radius: 4px;
-}
-main{
-    margin: 0;
-    width: 1360px;
-    margin-left: auto!important;
-    margin-right: auto!important; 
-}
-.titulo{
-    /* gap: 20px; */
-    /* align-items: center; */
-    width: 45%;
-    padding: 2%;
-}
-h1{
-    font-family: 'Slabo 27px', serif;
-    font-size: 45px;
-    
-}
-/* section{
-    background-color: white;
-    border: 1.5px solid rgb(220, 220, 220);
-    width: 90%;
-    height: 100px;
-    margin: 0px auto auto auto;
-} */
-div.buttons{
-    margin-top: 5%;
-    gap: 30px;
-}
-div button{
-    width: 150px;
-    height: 40px;
-    color: aliceblue;
 
-    background-color: black;
-    border-radius: 25px;
-    -webkit-border-radius: 25px;
-    -moz-border-radius: 25px;
-    -ms-border-radius: 25px;
-    -o-border-radius: 25px;
-    
+.row{
+    display: flex;
+    flex-wrap: wrap;
 }
-section{
-    margin-top: 40%;
-    gap: 40px;
+.space-around{
+    justify-content: space-around;
 }
-section h2{
-    font-size: 40px;
+.space-between{
+    justify-content: space-between;
 }
-section h2 p{
-    font-size: 30px;
+.justify-center{
+    justify-content: center;
+}
+.column{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+
+}
+.front-page{
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+section, footer{
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5%;
+
+}
+
+section.destinations div.country{
+    width: 243px;
+}
+
+footer{
+    padding: 5% 0%;
 }
